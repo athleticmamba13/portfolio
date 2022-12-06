@@ -1,0 +1,23 @@
+[
+  {
+    "title": "01 | Redesigning Banzai Bowl's Site",
+    "objective": "Objective: Design a Responsive Site",
+    "description": "In the spirit of practicing my web development skills, I redesigned the website for Banzai Bowls, a California-based acai shop.",
+    "learnMoreLink": "/Redesign",
+    "carousels":[["images/redesign/original-site.png", "Banzai's Original Site"], ["images/redesign/low-fi-computer.png", "Redesign: Lo-Fi Prototype Computer Landing Page"], ["images/redesign/high-fi-computer.png", "Redesign: Hi-Fi Computer Prototype Landing Page"], ["images/redesign/final-site.png", "Redesign: Final Site Landing Page"]]
+  }, 
+  {
+    "title": "02 | User Journeys: Brown's Washing Machines",
+    "objective": "Objective: Personas & Storyboarding",
+    "description": "In the spirit of practicing my web development skills, I redesigned the website for Banzai Bowls, a California-based acai shop.",
+    "learnMoreLink": "/Personas",
+    "carousels":[["images/laundry_sketch.png", "Laundry Machine Sketch"], ["images/personas.png", "Two Persona Diagrams: Confused Carson and Stressed Samantha"], ["images/carson_storyboard.jpg", "Storyboard for Carson's Persona"]]
+  }, 
+  {
+    "title": "04 | Development",
+    "objective": "Objective: Personas & Storyboarding",
+    "description": "In the spirit of my Golden State Warriors fandom, I opted to make a Warriors roster sorter/filter tool for my UI/UX's course React assignment.",
+    "learnMoreLink": "/",
+    "carousels":[["images/development/home-page.png", "Home Page"], ["images/development/filtered.png", "Filtered and sorted by points"], ["images/development/favorites.png", "Selecting Favorites"]]
+  }
+]

@@ -2,6 +2,7 @@ import React from "react";
 // import Typical from "react-typical";
 // import ScrollService from "../../../utilities/ScrollService";
 import "./Profile.css";
+import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -11,7 +12,7 @@ export default function Profile() {
   return (
     <div className="profile-container">
       <Container> 
-      <Row className="profile-parent">
+      <Row className="center-align profile-parent">
         <Col className="profile-details">
           <div className="profile-details-name">
             <span className="h1-seo">
@@ -48,20 +49,13 @@ export default function Profile() {
               />
               </div>
             <span className="profile-role-tagline">
-              Check out my portfolio Button
+              <Button className="button-margin" target="" href="/projects" variant="success">📖 Check Out My Work</Button>{' '}
             </span>
           </div>
-
-          {/* <div className="profile-options">
-            <button className="btn primary-btn"            > Hire Me </button>
-            <a href="ehizcv.pdf" download="Ehiedu Ehizcv.pdf">
-              <button className="btn highlighted-btn">Get Resume</button>
-            </a>
-          </div> */}
         </Col>
-        <Col>
-          <div className="profile-picture">
-            <div className="profile-picture-background"></div>
+        <Col className="center-align">
+          <div className="center-align profile-picture">
+            <div className="center-align profile-picture-background"></div>
           </div>
         </Col>
       </Row>

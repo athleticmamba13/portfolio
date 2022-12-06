@@ -1,0 +1,65 @@
+body {
+    background-color:lightgray;
+}
+
+hr {
+    color: white;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.personas {
+    max-width: 50rem;
+}
+
+.navbar {
+    background-color: rgb(128, 162, 133);
+    border-bottom: 2px solid gray;
+}
+
+#margin {
+    background-color: rgb(162, 243, 175);
+    height: 55px;
+    width: 100%;
+}
+
+#interface-sketch {
+    background-color: rgb(206, 250, 213);
+}
+
+#observations {
+    background-color: #b9e8b9
+}
+
+#assignment-title {
+    background-color: rgb(162, 243, 175);
+}
+
+#laundry-sketch {
+    max-width: 65%;
+}
+
+#observations {
+    background-color: #c9fce1;
+}
+
+#interviews {
+    background-color: #e2fdf4;
+}
+
+#personas {
+    background-color: #d8f5f9;
+}
+
+#storyboard {
+    background-color: #c0f0f7;
+}
+
+#storyboard-img {
+    max-width: 80%;
+}
+

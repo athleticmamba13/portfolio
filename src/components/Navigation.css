@@ -1,0 +1,11 @@
+
+.nav-text {
+    color: rgb(0, 0, 0) !important; 
+    margin-right: 1em;
+    margin-left: 1em;
+
+}
+
+.nav-style {
+    background-image: linear-gradient(-225deg, #E3FDF5 0%, #FFE6FA 100%);
+}
