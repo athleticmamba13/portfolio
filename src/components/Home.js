@@ -8,7 +8,6 @@ import "./Home.css";
       return (
         <div className="App">
             <Profile></Profile>
-            <Profile></Profile>
           </div>
       );
   }
