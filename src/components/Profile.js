@@ -40,16 +40,26 @@ export default function Profile() {
               </div>
               <div className="typewriter-entry">
               <Typewriter
-                words={["Brown University Computer Science Student 😎"]}
+                words={["Junior @ Brown studying CS & Intl Affairs 😎"]}
                 loop={1}
                 cursor
                 cursorStyle=''
-                typeSpeed={75}
+                typeSpeed={50}
+                delaySpeed={100}
+              />
+              </div>
+              <div className="typewriter-entry-small">
+              <Typewriter
+                words={["I'm originally from the Bay Area, so my UI design projects are typically centered around things that remind me of home, such as the Golden State Warriors and acai bowls, and, being a Silicon Valley kid, software in general."]}
+                loop={1}
+                cursor
+                cursorStyle=''
+                typeSpeed={0.0001}
                 delaySpeed={100}
               />
               </div>
             <span className="profile-role-tagline">
-              <Button className="button-margin" target="" href="/projects" variant="success">📖 Check Out My Work</Button>{' '}
+              <Button className="button-margin" target="" href="/projects" variant="info">📖 Check Out My Work</Button>{' '}
             </span>
           </div>
         </Col>

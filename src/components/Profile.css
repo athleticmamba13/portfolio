@@ -34,9 +34,21 @@
 }
 
 .typewriter-entry {
+  /* background-color: #e3f2ff2e;
+  border-radius: 5%; */
   font-size: 1.5em;
   min-height: 5vh;
 }
+
+.typewriter-entry-small {
+  background-color: #e3f2ff2e;
+  border-radius: 5%;
+  margin-top: 1em;
+  margin-bottom: 0.6em;
+  font-size: 1.15em;
+  min-height: 5vh;
+}
+
 
 .primary-text {
   color: (--white);
@@ -89,6 +101,12 @@ html, body, #app, #app>div {
 
 .button-margin {
   margin: 1em;
+  background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
+}
+
+.button-margin:hover {
+  margin: 1em;
+  background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
 }
 
 .fade-in-text {
