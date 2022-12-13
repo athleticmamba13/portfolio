@@ -6,6 +6,8 @@ import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import { AwesomeButton } from 'react-awesome-button';
+import 'react-awesome-button/dist/styles.css';
 import { Typewriter } from 'react-simple-typewriter'
 
 export default function Profile() {
@@ -17,7 +19,7 @@ export default function Profile() {
           <div className="profile-details-name">
             <span className="h1-seo">
             <Typewriter
-            words={["Hello, I'm Ben."]}
+            words={["Hello, I'm [Steph]."]}
             loop={1}
             cursor
             cursorStyle=''
@@ -40,7 +42,7 @@ export default function Profile() {
               </div>
               <div className="typewriter-entry">
               <Typewriter
-                words={["Junior @ Brown studying CS & Intl Affairs 😎"]}
+                words={["Junior @ Brown studying CS 😎"]}
                 loop={1}
                 cursor
                 cursorStyle=''
@@ -59,6 +61,7 @@ export default function Profile() {
               />
               </div>
             <span className="profile-role-tagline">
+              {/* <AwesomeButton className="button-margin"href="/projects" type="primary">📖 Check Out My Work</AwesomeButton> */}
               <Button className="button-margin" target="" href="/projects" variant="info">📖 Check Out My Work</Button>{' '}
             </span>
           </div>

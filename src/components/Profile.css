@@ -34,9 +34,7 @@
 }
 
 .typewriter-entry {
-  /* background-color: #e3f2ff2e;
-  border-radius: 5%; */
-  font-size: 1.5em;
+  font-size: 2em;
   min-height: 5vh;
 }
 
@@ -45,7 +43,7 @@
   border-radius: 5%;
   margin-top: 1em;
   margin-bottom: 0.6em;
-  font-size: 1.15em;
+  font-size: 1.3em;
   min-height: 5vh;
 }
 
@@ -86,7 +84,7 @@
 .h1-seo {
   color: rgb(35, 58, 84);
   font-weight: 600;
-  font-size: 3em;;
+  font-size: 3.5em;;
   text-transform: capitalize;
   width: 100%;
 }
@@ -101,11 +99,13 @@ html, body, #app, #app>div {
 
 .button-margin {
   margin: 1em;
+  font-size: 1.1em;
   background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
 }
 
 .button-margin:hover {
   margin: 1em;
+  font-size: 1.1em;
   background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
 }
 
@@ -143,9 +143,30 @@ html, body, #app, #app>div {
     margin: 25px 0 0;
   }
 
+  .h1-seo {
+    color: rgb(35, 58, 84);
+    font-weight: 600;
+    font-size: 2.4em;;
+    text-transform: capitalize;
+    width: 100%;
+  }
+
   .profile-details-name,
   .profile-details-role {
     text-align: center;
+  }
+  .typewriter-entry-small {
+    background-color: #e3f2ff2e;
+    border-radius: 5%;
+    margin-top: 1em;
+    margin-bottom: 0.6em;
+    font-size: 0.9em;
+    min-height: 5vh;
+  } 
+
+  .typewriter-entry {
+    font-size: 1.2em;
+    min-height: 5vh;
   }
 }
 
@@ -157,4 +178,26 @@ html, body, #app, #app>div {
   .proflie-details {
     width: 95%;
   }
+
+  .h1-seo {
+    color: rgb(35, 58, 84);
+    font-weight: 600;
+    font-size: 1.8em;;
+    text-transform: capitalize;
+    width: 100%;
+  }
+
+  .typewriter-entry {
+    font-size: 1em;
+    min-height: 5vh;
+  }
+
+  .typewriter-entry-small {
+    background-color: #e3f2ff2e;
+    border-radius: 5%;
+    margin-top: 1em;
+    margin-bottom: 0.6em;
+    font-size: 0.6em;
+    min-height: 5vh;
+  }  
 }

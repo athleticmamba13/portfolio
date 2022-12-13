@@ -1,7 +1,26 @@
 .project-container {
-    border-bottom: dashed rgb(121, 90, 90);
-    height:100%;
+    min-height: 865px; 
+    height: 100%;
     background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .secondary-link {
+    text-decoration: none;
+    font-size: 1em;
+    color: rgb(0, 145, 255);
+  }
+
+  .container-adjust {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin: auto;
+
   }
 
   .carousel-text {
@@ -17,11 +36,19 @@
   .row-project {
     align-items: center;
     text-align: center;
-    margin-top: 15%;
+    margin-top: 3%;
+    /* margin-top: 5%; */
+
   }
 
-  .profile-details-name {
-    font-family: "Poppins SemiBold";
+  .project-txt {
+    margin-right: 10%;
+  }
+
+  .description-div {
+    margin-right: 5%;
+    font-size: 1em;
+
   }
   .profile-details-role {
     font-size: 1.4em;
@@ -40,32 +67,53 @@
   }
 
   .objective-txt {
-    font-size: 1.5em; 
+    font-size: 2em; 
     color: white;
   }
 
   .description-txt {
-    font-size: 1.1em; 
+    font-size: 1em; 
     color: white;
+    list-style: none;
+    text-align: justify;
+  }
+
+  .bolded-title {
+    color: white; 
+    text-align: justify;
+    text-decoration: underline;
   }
 
   .columned-item {
     padding: 0;
   }
 
+  .button-margin {
+    margin: 1em;
+    text-align: center;
+    font-size: 1.1em;
+    color: black;
+    background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
+  }
+  
+  .button-margin:hover {
+    margin: 1em;
+    font-size: 1.1em;
+    color: blue;
+
+    background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+  }
+
   .project-title {
     padding-top: 1em;
     color: #fff;
+    margin-bottom: 7%;
     font-weight: 600;
     font-size: 2.5em;
     text-transform: capitalize;
     width: 100%;
   }
-  
-  .typewriter-entry {
-    font-size: 1.4em;
-    min-height: 5vh;
-  }
+
   
   .primary-text {
     color: (--white);
@@ -88,7 +136,60 @@
     0% { opacity: 0; }
     100% { opacity: 1; }
   }
+
+  @media only screen and (max-width: 1600px) {
+    .description-txt {
+      font-size: 0.92em;
+    }
+    .project-title {
+      font-size: 2.5em;
+    }
+
+    .bolded-title {
+      font-size: 1.45em;
+    }
+    .project-title {
+      margin-bottom: 2.5%;
+    }
+  }
   
+  @media only screen and (max-width: 1400px) {
+    .description-txt {
+      font-size: 0.9em;
+    }
+    .project-title {
+      font-size: 2.5em;
+    }
+
+    .bolded-title {
+      font-size: 1.4em;
+    }
+
+    .button-margin, .button-margin:hover {
+      margin: 0.8em;
+      font-size: 0.95em;
+      margin-bottom: 2em;
+    }
+    .project-title {
+      margin-bottom: 2.5%;
+    }
+  }
+
+  @media only screen and (max-width: 1200px) {
+    .description-txt {
+      font-size: 0.85em;
+    }
+    .project-title {
+      font-size: 2.3em;
+    }
+
+    .bolded-title {
+      font-size: 1.25em;
+    }
+    .project-title {
+      margin-bottom: 2%;
+    }
+  }
 
   @media only screen and (max-width: 1000px) {
     .center {
@@ -96,15 +197,9 @@
       align-items: center;
       margin: 0 auto;
     }
-
-    .carousel-style {
-      width: 50%;
-      text-align: center;
-  
-    }
   }
   
-  @media only screen and (max-width: 910px) {
+  @media only screen and (max-width: 992px) {
     .carousel-text {
       color: rgb(221, 219, 219);
       font-size: 0.9rem;
@@ -115,17 +210,60 @@
       padding-top: 0.1em;
     }
     .objective-txt {
-      font-size: 1.3em; 
+      font-size: 1.2em; 
     }
   
     .description-txt {
-      font-size: 0.9em; 
+      font-size: 0.7em; 
+    }
+
+    .bolded-title {
+      font-size: 0.95em;;
     }
     .project-title {
-      font-weight: 550;
-      font-size: 2.1em;
+      font-size: 1.65em;
+      margin: 0;
+      margin-bottom: 1%;
+    }
+
+    .carousel-style {
+      width: 50%;
+      text-align: center;
+  
+    }
+
+    .button-margin, .button-margin:hover {
+      margin: 0.7em;
+      margin-bottom: 2em;
+      font-size: 0.85em;
     }
   }
+
+  @media only screen and (max-width: 750px) {
+    .carousel-text {
+      color: rgb(221, 219, 219);
+      font-size: 0.9rem;
+      margin: 0;
+      padding-left: 0.4em;
+      padding-right: 0.4em;
+      padding-bottom: 0.15em;
+      padding-top: 0.1em;
+    }
+  
+    .description-txt {
+      font-size: 0.65em; 
+    }
+    .project-title {
+      font-size: 2em;
+    }
+
+    .button-margin, .button-margin:hover {
+      margin: 0.7em;
+      margin-bottom: 2em;
+      font-size: 0.85em;
+    }
+  }
+
   @media only screen and (max-width: 600px) {
     .carousel-text {
       font-size: 0.9rem;
@@ -158,9 +296,6 @@
     .proflie-details {
       width: 95%;
     }
-    .objective-txt {
-      font-size: 0.9em; 
-    }
     .carousel-text {
       font-size: 0.5rem;
       padding-left: 0.4em;
@@ -169,10 +304,15 @@
       padding-top: 0.1em;
     }
     .description-txt {
-      font-size: 0.5em; 
+      font-size: 0.6em; 
     }
     .project-title {
-      font-weight: 550;
-      font-size: 1.1em;
+      font-size: 1.4em;
+    }
+
+    .button-margin, .button-margin:hover {
+      margin: 0.8em;
+      margin-bottom: 2em;
+      font-size: 0.7em;
     }
   }

@@ -1,23 +1,53 @@
 [
   {
-    "title": "01 | Redesigning Banzai Bowl's Site",
-    "objective": "Objective: Design a Responsive Site",
-    "description": "In the spirit of practicing my web development skills, I redesigned the website for Banzai Bowls, a California-based acai shop.",
-    "learnMoreLink": "/Redesign",
-    "carousels":[["images/redesign/original-site.png", "Banzai's Original Site"], ["images/redesign/low-fi-computer.png", "Redesign: Lo-Fi Prototype Computer Landing Page"], ["images/redesign/high-fi-computer.png", "Redesign: Hi-Fi Computer Prototype Landing Page"], ["images/redesign/final-site.png", "Redesign: Final Site Landing Page"]]
-  }, 
-  {
-    "title": "02 | User Journeys: Brown's Washing Machines",
-    "objective": "Objective: Personas & Storyboarding",
-    "description": "In the spirit of practicing my web development skills, I redesigned the website for Banzai Bowls, a California-based acai shop.",
+    "title": "01 | User Journeys: Brown's Washing Machines",
+    "nav-title": "Personas & Storyboarding", 
+    "id": "personas",
+    "context": "This project shighlights the typical user’s experience using the Brown University dormitory washing machines. The project models the profile of this typical user and imagines the user’s journey.",
+    "research": "Understanding users is the key to effective design. While research is constantly done by companies on user experience and design, this project is especially intended for the admins in charge of the Brown washing machine, as well as the company supplying the washing machine.",
+    "design": "When designing the storyboard, I debated whether to draw it using stick figures or opt for photos of a user model instead. While the real-life photos may appear more “professional”, I opted for the simplicity of stick figures to ensure there were no distracting details.",
+    "conclusion": "This project helped me learn to think about user personas, storyboards, and the overall user journeys as critical to implementing effective design.",
     "learnMoreLink": "/Personas",
     "carousels":[["images/laundry_sketch.png", "Laundry Machine Sketch"], ["images/personas.png", "Two Persona Diagrams: Confused Carson and Stressed Samantha"], ["images/carson_storyboard.jpg", "Storyboard for Carson's Persona"]]
   }, 
   {
-    "title": "04 | Development",
+    "title": "02 | Redesigning Banzai Bowl's Site",
+    "nav-title": "Responsive Redesign", 
+    "id": "redesign",
+    "context": "As a California boy, one of my favorite Acai Bowl shops is Banzai Bowls in Southern California, but I always loathed their online ordering experience. The existing website is unclear: the “Order Now” button is hard to find, the images don’t adjust based on screen size, and the site is overall unresponsive. I decided to redesign to improve Banzai’s online experience.",
+    "research": "There is plenty of existing research on conceptual models, hierarchy, and user interaction and navigation. I focused on improving the usability, efficiency, learnability, and memorability of the site.",
+    "design": "I began by creating low-fidelity prototypes that followed the usability principles of efficiency, learnability, and memorability by creating a simple conceptual model that allowed users to immediately order upon loading the page without confusion. From there,  created hi-fidelity prototypes and finally, the actual",
+    "conclusion": "This project helped me understand both the importance of prototyping before coding as well as the actual implementation of effective responsive sites.",
+    "learnMoreLink": "/Redesign",
+    "secondSiteText": " site.",
+    "secondarySiteLink": "https://athleticmamba13.github.io/responsive-banzai-site/",
+    "carousels":[["images/redesign/original-site.png", "Banzai's Original Site"], ["images/redesign/low-fi-computer.png", "Redesign: Lo-Fi Prototype Computer Landing Page"], ["images/redesign/high-fi-computer.png", "Redesign: Hi-Fi Computer Prototype Landing Page"], ["images/redesign/final-site.png", "Redesign: Final Site Landing Page"]]
+  }, 
+  {
+    "title": "03 | Iteratively Designing a Notification-Sending Interface",
+    "nav-title": "Iterative Prototyping", 
+    "id": "iterative",
+    "context": "One of the areas I’ve explored as a CS major the past couple of years is enterprise SaaS. When I decided, as an exercise along with three others, to design the core UI for a startup of choice, we selected Raven, a startup helping businesses manage notifications across channels such as SMS, Email, and WhatsApp and providers such as Twilio, Synch, and Gupshup.", 
+    "research": "The intended audience for this type of product is any company that sends mass notifications to its customers.", 
+    "design": "We focused extensively on iterative design in this project, beginning by sketching several different design options before narrowing it down to one holistic theme in low-fi (and eventually hi-fi). Given that companies have employees with various levels of technical expertise, we felt it was important to design an interface that is simple and non-technical. The design allows users to view campaign analytics and send notifications and select their desired channels and providers.",
+    "conclusion": "This project helped me understand how to design solutions to existing user pain points and to always consider the levels of technical expertise that a typical user of the product may have.",
     "objective": "Objective: Personas & Storyboarding",
-    "description": "In the spirit of my Golden State Warriors fandom, I opted to make a Warriors roster sorter/filter tool for my UI/UX's course React assignment.",
-    "learnMoreLink": "/",
+    "description": "In the spirit of practicing my web development skills, I redesigned the website for Banzai Bowls, a California-based acai shop.",
+    "learnMoreLink": "https://browncsaccount.github.io/raven/",
+    "secondSiteText": " See Figma.",
+    "secondarySiteLink": "https://www.figma.com/proto/hlt2jHejastnBFLiCf8cIi/Raven-Anonymous-Prototype?node-id=1%3A2617&starting-point-node-id=1%3A2617",
+    "carousels":[["images/iterative/hi-fi-2.png", "Hi-Fi: Create Notification"], ["images/iterative/sketch-1.png", "Initial Sketch Example: Notification Dashboard"], ["images/iterative/sketch-2.jpg", "Initial Sketch Example: Dashboard Hub"], ["images/iterative/lo-fi.png", "Lo-Fi Prototype: Dashboard Hub"], ["images/iterative/hi-fi-1.png", "Hi-Fi Prototype: Dashboard Hub"]]
+  }, 
+  {
+    "title": "04 | Development: Analyzing Golden State's Roster",
+    "nav-title": "React Development", 
+    "id": "development",
+    "context": "I grew up playing basketball in the Bay Area and have always been a Warriors fan. When a class project called on me to design the interface for and develop a site that would allow users to filter and sort a collection, I opted to create a statistical hub for Golden State’s roster.",
+    "research": "This site is geared towards hardcore NBA and Golden State fans who want to analyze the Warriors’ roster in depth. Though there are existing statistical tools that can be used to analyze players, such as NBA.com and Basketball Reference, this site is intended as a tool of convenience for viewing Warriors players. ",
+    "design": "I considered several different mechanisms of sorting and filtering functionalities. I included a toolbar that allows users to filter the players or select to see their favorites. I considered putting the toolbar on the left-hand side of the page, but ultimately felt that a center-top placement, with the sorting functionality right under, better fit my conceptual model and intended hierarchy. See the site here.", 
+    "conclusion": "This project helped me become comfortable with using React and actually developing interactive sites on top of the design.",
+    "objective": "Objective: Personas & Storyboarding",
+    "learnMoreLink": "https://athleticmamba13.github.io/development/",
     "carousels":[["images/development/home-page.png", "Home Page"], ["images/development/filtered.png", "Filtered and sorted by points"], ["images/development/favorites.png", "Selecting Favorites"]]
   }
 ]
