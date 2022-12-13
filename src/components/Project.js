@@ -8,7 +8,6 @@ import Row from 'react-bootstrap/Row';
 import Button from 'react-bootstrap/Button';
 
 import Col from 'react-bootstrap/Col';
-import { Typewriter } from 'react-simple-typewriter'
 
 export default function Project(props) {
   return (

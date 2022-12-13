@@ -1,32 +1,9 @@
 import React from "react";
-import {Outlet} from "react-router-dom";
-import Navigation from "./Navigation";
 import "./Redesign.css";
 
 const Redesign = () => {
   return (
     <>
-        {/* <nav className="navbar fixed-top navbar-expand-lg">
-            <div className="container-fluid">
-                <a className="navbar-brand" href="/">Home</a>
-                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span className="navbar-toggler-icon"></span>
-                </button>
-                <div className="collapse navbar-collapse" id="navbarNav">
-                <ul className="navbar-nav">
-                    <li className="nav-item">
-                    <a className="nav-link" href="#part-1">Usability Problems</a>
-                    </li>
-                    <li className="nav-item">
-                    <a className="nav-link" href="#prototypes">Prototypes</a>
-                    </li>
-                    <li className="nav-item">
-                    <a className="nav-link" href="#redesign-product">Redesigned Site</a>
-                    </li>
-                </ul>
-                </div>
-            </div>
-        </nav> */}
         <div id="margin"></div>
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
             <div id='assignment-title' className=" text-center" >
@@ -46,8 +23,8 @@ const Redesign = () => {
             Click the link above to see their existing site!
             </p>
                 <div className="flex-container">
-                    <img src="images/redesign-handin-images/banzai_home.png" id="laundry-sketch" className="flex-item pb-3 center"></img>
-                    <img src="images/redesign-handin-images/banzai_home_2.png" id="laundry-sketch" className="flex-item pb-3 center"></img>
+                    <img src="images/redesign-handin-images/banzai_home.png" id="laundry-sketch" className="flex-item pb-3 center" alt=""></img>
+                    <img src="images/redesign-handin-images/banzai_home_2.png" id="laundry-sketch" className="flex-item pb-3 center" alt=""></img>
                 </div>
                 <p>*Note that Banzai Bowls’ home page is currently a slideshow of three different images, with the above screenshot depicting one of the three. </p>
             </div>
@@ -117,15 +94,15 @@ const Redesign = () => {
                     <div className="d-flex flex-wrap justify-content-around"> 
                     <div className="v-stack">
                         <h4>Large Computer</h4>
-                        <img className="" id="low-fi-computer" src="images/redesign-handin-images/low-fi-computer.png"></img>
+                        <img className="" id="low-fi-computer" src="images/redesign-handin-images/low-fi-computer.png" alt=""></img>
                     </div>
                     <div className="v-stack">
                         <h4>Tablet</h4>
-                        <img className="" id="low-fi-tablet" src="images/redesign-handin-images/low-fi-tablet.png" ></img>
+                        <img className="" id="low-fi-tablet" src="images/redesign-handin-images/low-fi-tablet.png" alt="" ></img>
                     </div>
                     <div className="v-stack">
                         <h4>Smartphone</h4>
-                        <img className="" id="low-fi-phone" src="images/redesign-handin-images/low-fi-phone.png"></img>
+                        <img className="" id="low-fi-phone" src="images/redesign-handin-images/low-fi-phone.png" alt=""></img>
                     </div>
             
                     </div> 
@@ -138,23 +115,23 @@ const Redesign = () => {
                     <div className="d-flex flex-wrap justify-content-around"> 
                     <div className="v-stack">
                         <h4>Design Palette</h4>
-                        <img id="design-palette" src="images/redesign-handin-images/design-palette.png" ></img>
+                        <img id="design-palette" src="images/redesign-handin-images/design-palette.png" alt=""></img>
                     </div>
                     <div className="v-stack">
                         <h4>Large Computer</h4>
-                        <img id="high-fi-computer" src="images/redesign-handin-images/hi-fi-computer.png" ></img>
+                        <img id="high-fi-computer" src="images/redesign-handin-images/hi-fi-computer.png" alt="" ></img>
                     </div>
                     <div className="v-stack">
                         <h4>Tablet</h4>
-                        <img id="high-fi-tablet" src="images/redesign-handin-images/hi-fi-tablet.png"></img>
+                        <img id="high-fi-tablet" src="images/redesign-handin-images/hi-fi-tablet.png" alt=""></img>
                     </div>
                     <div className="v-stack">
                         <h4>Smartphone</h4>
-                        <img id="high-fi-phone" src="images/redesign-handin-images/high-fi-phone.png"></img>
+                        <img id="high-fi-phone" src="images/redesign-handin-images/high-fi-phone.png" alt=""></img>
                     </div>
                     <div className="v-stack">
                         <h4>Example Smartphone View</h4>
-                        <img id="high-fi-phone" src="images/redesign-handin-images/iphone-ex.png" ></img>
+                        <img id="high-fi-phone" src="images/redesign-handin-images/iphone-ex.png" alt=""></img>
                     </div>
             
                     </div> 
@@ -172,7 +149,7 @@ const Redesign = () => {
                     to take a look in full. Hope you enjoy!
                 </h5>
                 <div className="row justify-content-around"> 
-                    <img src="images/redesign-handin-images/redesign-site.png" className='center' id='redesign-img'></img>
+                    <img src="images/redesign-handin-images/redesign-site.png" className='center' id='redesign-img' alt=""></img>
                 </div>
             
             </div>    
